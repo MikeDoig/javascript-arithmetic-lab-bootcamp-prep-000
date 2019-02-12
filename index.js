@@ -1,22 +1,22 @@
 function add(a, b) {
-  return parseInt(a) + parseInt(b);
+  return parseInt(a) += parseInt(b);
 }
-function subtract(a,b) {
-  return parseInt(a) - parseInt(b);
+function subtract(c, d) {
+  return parseInt(c) -= parseInt(d);
 }
-function multiply(a,b) {
-  return parseInt(a) * parseInt(b);
+function multiply(e, f) {
+  return parseInt(e) *= parseInt(f);
 }
-function divide(a,b) {
-  return parseInt(a) / parseInt(b);
+function divide(g, h) {
+  return parseInt(g) /= parseInt(h);
 }
-function inc(a) {
-  return parseInt(a + 1);
+function inc(i) {
+  return parseInt(i + 1);
 }
-function dec(a) {
-  return parseInt(a - 1);
+function dec(j) {
+  return parseInt(j - 1);
 }
-function makeInt(a) {
-  return parseInt(a);
+function makeInt(k) {
+  return parseInt(k);
   
 }
