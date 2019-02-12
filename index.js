@@ -17,6 +17,6 @@ function dec(j) {
   return parseInt(j - 1);
 }
 function makeInt(k) {
-  return parseInt(k);
+  return parseInt(k, 10);
   
 }
