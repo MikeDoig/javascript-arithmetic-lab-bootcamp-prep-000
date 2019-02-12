@@ -18,5 +18,4 @@ function dec(j) {
 }
 function makeInt(k) {
   return parseInt(k, 10);
-  
 }
