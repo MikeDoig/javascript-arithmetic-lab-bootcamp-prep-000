@@ -1,14 +1,14 @@
 function add(a, b) {
-  return parseInt(a) += parseInt(b);
+  return parseInt(a) + parseInt(b);
 }
 function subtract(c, d) {
-  return parseInt(c) -= parseInt(d);
+  return parseInt(c) - parseInt(d);
 }
 function multiply(e, f) {
-  return parseInt(e) *= parseInt(f);
+  return parseInt(e) * parseInt(f);
 }
 function divide(g, h) {
-  return parseInt(g) /= parseInt(h);
+  return parseInt(g) / parseInt(h);
 }
 function inc(i) {
   return parseInt(i + 1);
